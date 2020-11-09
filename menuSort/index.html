@@ -5,13 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu Sort</title>
+  <style>
+    .buttons{
+      margin-top : 20px;
+      display: flex;
+      margin:20px 0;
+    }
+    .button{
+      width:120px;
+      height:40px;
+      margin : 0 10px;
+    }
+  </style>
 </head>
 
 <body>
-  <textarea class='beforeText' cols="30" rows="30" spellcheck='false'></textarea>
+  <textarea class='beforeText' cols="50" rows="30" spellcheck='false'></textarea>
   <button class='submit'>SUBMIT</button>
-  <textarea class='afterText' cols="30" rows="30" spellcheck='false'></textarea>
-
+  <textarea class='afterText' cols="50" rows="30" spellcheck='false'></textarea>
+  <div class='buttons'>
+    <button class='oldBaemin button'>OLD BAEMIN</button>
+    <button class='newBaemin button'>NEW BAEMIN</button>
+    <button class='pusePos button'>PUSE POS</button>
+    <button class='foodTech button'>FOOD TECH</button>
+  </div>
   <script src='index.js'></script>
 </body>
 
